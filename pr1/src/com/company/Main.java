@@ -38,7 +38,7 @@ public class Main {
             for(int j = 0; j < N; j++){
                 array[i][j] = (byte)(Math.random()*100);
             }
-        }
+        }//
         System.out.println(" ");
         System.out.println("До обробки:");
         showMatrix();
