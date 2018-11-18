@@ -114,8 +114,33 @@ public class Animal {
         String subspecies = scanner.nextLine(); //підвид
         System.out.println("Animal's color: ");
         String color = scanner.nextLine();
-        System.out.println("Animal's age: ");
-        int age = Integer.parseInt(scanner.nextLine());
+
+
+
+
+        int age = 0;
+        boolean isParseable = false;
+        do{
+            try {
+                System.out.println("Animal's age: ");
+                age = Integer.parseInt(scanner.nextLine());
+                isParseable = true;
+                if(age < 0){
+                    throw new IntIsMinusExeption("");
+                }
+            }
+            catch (NumberFormatException e){
+                System.out.println("вы ввели не число, попробуйте еще раз");
+                isParseable = false;
+            }
+            catch (IntIsMinusExeption e){
+                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                isParseable = false;
+            }
+        }
+        while (!isParseable);
+
+
         animal = new Animal(type, clas, kind, family, species, subspecies, color, age);
     }
     public static void AddAnimalToList(Animal animal){
@@ -140,8 +165,28 @@ public class Animal {
 
     }
     public static void ShowAnimalsListByYear(){
-        System.out.println("Higher than age ?");
-        int age = Integer.parseInt(scanner.nextLine());
+        int age = 0;
+        boolean isParseable = false;
+        do{
+            try {
+                System.out.println("Higher than age ?");
+               age = Integer.parseInt(scanner.nextLine());
+                isParseable = true;
+                if(age < 0){
+                    throw new IntIsMinusExeption("");
+                }
+            }
+            catch (NumberFormatException e){
+                System.out.println("вы ввели не число, попробуйте еще раз");
+                isParseable = false;
+            }
+            catch (IntIsMinusExeption e){
+                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                isParseable = false;
+            }
+        }
+        while (!isParseable);
+
         System.out.println("****************************************************************************************************************************************************************************************************************************************************************************");
         System.out.printf("%12s %12s %12s %12s %12s %12s %12s %12s", "Type", "Clas", "Kind", "Family", "Species", "SubSpecies", "Color", "Age");
         System.out.println("");

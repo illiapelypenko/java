@@ -31,8 +31,37 @@ public class Main {
         }
     }
     public static void start(){
-        System.out.printf("Введіть N: ");
-        N = Integer.parseInt(scanner.nextLine());
+
+
+        boolean isParseable = false;
+        do {
+            try{
+                System.out.printf("Введіть N: ");
+                N = Integer.parseInt(scanner.nextLine());
+                isParseable = true;
+                if(N < 0){
+                    throw new IntIsMinusExeption("");
+                }
+                if(N == 0){
+                    throw new IntIsZeroException("");
+                }
+            }
+            catch (NumberFormatException e){
+                System.out.println("вы ввели не число, попробуйте еще раз");
+                isParseable = false;
+            }
+            catch (IntIsMinusExeption e){
+                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                isParseable = false;
+            }
+            catch (IntIsZeroException e){
+                System.out.println("размер матрицы не может быть 0");
+                isParseable = false;
+            }
+        }
+        while (!isParseable);
+
+
         array = new byte[N][N];
         for(int i = 0; i < N; i++){
             for(int j = 0; j < N; j++){
@@ -43,8 +72,31 @@ public class Main {
         System.out.println("До обробки:");
         showMatrix();
         System.out.println(" ");
-        System.out.printf("Введіть n: ");
-        int n = Integer.parseInt(scanner.nextLine());
+
+
+
+        int n = 0;
+        isParseable = false;
+        do {
+            try{
+                System.out.printf("Введіть n: ");
+                n = Integer.parseInt(scanner.nextLine());
+                isParseable = true;
+                if(n < 0){
+                    throw new IntIsMinusExeption("");
+                }
+            }
+            catch (NumberFormatException e){
+                System.out.println("вы ввели не число, попробуйте еще раз");
+                isParseable = false;
+            }
+            catch (IntIsMinusExeption e){
+                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                isParseable = false;
+            }
+        }
+        while (!isParseable);
+
         for( int i = 0; i < n; i++ ){
             byte[] row1 = array[0];
             for(int j = 0; j < array.length - 1; j++){
@@ -52,6 +104,7 @@ public class Main {
             }
             array[array.length - 1] = row1;
         }
+
         System.out.println(" ");
         System.out.println("Після обробки:");
         showMatrix();
