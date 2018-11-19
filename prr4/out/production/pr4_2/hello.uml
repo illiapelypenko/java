@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.company.RegistryOffice</node>
+    <node x="93.5" y="169.0">com.company.Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Application" target="com.company.RegistryOffice">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="18.0" />
+  <SelectedNodes>
+    <node>com.company.RegistryOffice</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
