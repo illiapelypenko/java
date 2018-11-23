@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e3562b-a0e2-44d0-b690-cd092075f3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pr1/src/com/company/IntIsMinusExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pr1/src/com/company/IntIsZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pr6class/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pr6class/src/com/company/Filereader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pr6class/src/com/company/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pr1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr1/out/production/pr1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr1/out/production/pr1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pr1/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6class/out/production/pr6class/com/company/Filereader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/out/production/pr6class/com/company/Filereader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6class/out/production/pr6class/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/out/production/pr6class/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6class/src/com/company/Filereader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/src/com/company/Filereader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/out/production/pr6/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/pr6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr6functional/src/com/company/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +29,11 @@
     <session id="-344366854">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="51" column="58" lean-forward="true" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="525">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +87,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541407653218" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,8 +169,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="51" column="58" lean-forward="true" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="525">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

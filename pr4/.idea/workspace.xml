@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4654b229-9fde-466e-9e63-7add8f9de9b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pr5/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pr6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pr6class/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +57,7 @@
     <session id="-737393862">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -267,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542612090077" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542619879843" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />

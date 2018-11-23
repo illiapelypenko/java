@@ -31,8 +31,10 @@ public class Filereader {
             while (scan.hasNextLine()){
                 System.out.println(scan.nextLine());
             }
-        } catch (IOException e){
+        } catch (FileNotFoundException e){
             System.out.println("файл " + fileToRead + " не знайдено");
+        } catch (IOException e){//не повинна бути
+            System.out.println("помилка при роботі з файлами");
         }
 }
 }
