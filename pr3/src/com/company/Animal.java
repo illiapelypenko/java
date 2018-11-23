@@ -134,7 +134,7 @@ public class Animal {
                 isParseable = false;
             }
             catch (IntIsMinusExeption e){
-                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                System.out.println("вы ввели " + e.getMessage() + ", попробуйте еще раз");
                 isParseable = false;
             }
         }
@@ -181,7 +181,7 @@ public class Animal {
                 isParseable = false;
             }
             catch (IntIsMinusExeption e){
-                System.out.println("вы ввели отрицательное число, попробуйте еще раз");
+                System.out.println("вы ввели " + e.getMessage() + ", попробуйте еще раз");
                 isParseable = false;
             }
         }

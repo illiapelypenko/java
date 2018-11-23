@@ -5,4 +5,7 @@ public class IntIsMinusExeption extends Exception{
     {
         super(message);
     }
+    public String getMessage() {
+        return "отрицательное число";
+    }
 }

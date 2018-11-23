@@ -5,4 +5,7 @@ public class IntIsZeroException extends Exception{
     {
         super(message);
     }
+    public String getMessage() {
+        return "не может быть 0";
+    }
 }
