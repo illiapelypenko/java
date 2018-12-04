@@ -3,8 +3,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
+
 //Варіант: 16  Завдання: 6 - byte - Виконати циклічний зсув матриці на n позицій вгору
 public class Main {
+
     static Scanner scanner = new Scanner(System.in);
     static byte [][] array;
     static int N;
