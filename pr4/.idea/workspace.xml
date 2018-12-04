@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4654b229-9fde-466e-9e63-7add8f9de9b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pr6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pr3/src/com/company/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pr3/src/com/company/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/IntIsMinusExeption.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/IntIsMinusExeption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/out/production/pr3/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pr3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pr3/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pr6class/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -57,11 +64,11 @@
     <session id="-737393862">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -76,7 +83,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="company" value="2" />
+          <entry key="company" value="4" />
           <entry key="iml" value="1" />
           <entry key="java" value="4" />
           <entry key="uml" value="2" />
@@ -86,7 +93,7 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="4" />
-          <entry key="UML" value="4" />
+          <entry key="UML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -96,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -118,69 +125,72 @@
               <ID>JAVA</ID>
               <OriginalElement>com.company</OriginalElement>
               <nodes>
-                <node x="0.0" y="480.0">com.company.Test</node>
-                <node x="553.75" y="0.0">com.company.RegistryOffice</node>
-                <node x="985.5" y="169.0">com.company.Application</node>
-                <node x="501.0" y="361.0">com.company.Administrator</node>
-                <node x="993.0" y="372.0">com.company.DeathApplication</node>
-                <node x="1181.0" y="372.0">com.company.MarriageApplication</node>
-                <node x="332.0" y="480.0">com.company.Main</node>
-                <node x="320.0" y="372.0">com.company.Register1</node>
-                <node x="0.0" y="372.0">com.company.Register2</node>
-                <node x="291.5" y="203.0">com.company.Worker</node>
-                <node x="805.0" y="372.0">com.company.BirthApplication</node>
+                <node x="0.0" y="526.0">com.company.Test</node>
+                <node x="650.75" y="0.0">com.company.RegistryOffice</node>
+                <node x="1138.0" y="169.0">com.company.Application</node>
+                <node x="612.0" y="384.0">com.company.Administrator</node>
+                <node x="1135.0" y="395.0">com.company.DeathApplication</node>
+                <node x="1344.0" y="395.0">com.company.MarriageApplication</node>
+                <node x="332.0" y="526.0">com.company.Main</node>
+                <node x="0.0" y="395.0">com.company.Register1</node>
+                <node x="292.0" y="395.0">com.company.Register2</node>
+                <node x="311.5" y="203.0">com.company.Worker</node>
+                <node x="932.0" y="395.0">com.company.BirthApplication</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="com.company.Register1" target="com.company.Worker">
-                  <point x="0.0" y="-26.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
                 <edge source="com.company.MarriageApplication" target="com.company.Application">
-                  <point x="0.0" y="-26.0" />
-                  <point x="1267.0" y="336.0" />
-                  <point x="1138.0" y="336.0" />
-                  <point x="61.0" y="71.0" />
+                  <point x="0.0" y="-37.5" />
+                  <point x="1447.0" y="359.0" />
+                  <point x="1290.5" y="359.0" />
+                  <point x="61.0" y="82.5" />
+                </edge>
+                <edge source="com.company.Register1" target="com.company.Worker">
+                  <point x="0.0" y="-37.5" />
+                  <point x="136.0" y="359.0" />
+                  <point x="355.0" y="359.0" />
+                  <point x="-87.0" y="48.5" />
                 </edge>
                 <edge source="com.company.Application" target="com.company.RegistryOffice">
-                  <point x="0.0" y="-71.0" />
-                  <point x="1077.0" y="144.0" />
-                  <point x="831.25" y="144.0" />
+                  <point x="0.0" y="-82.5" />
+                  <point x="1229.5" y="144.0" />
+                  <point x="928.25" y="144.0" />
                   <point x="92.5" y="59.5" />
                 </edge>
                 <edge source="com.company.Administrator" target="com.company.Worker">
-                  <point x="0.0" y="-37.0" />
-                  <point x="643.0" y="336.0" />
-                  <point x="473.16666666666674" y="336.0" />
-                  <point x="72.66666666666674" y="37.0" />
+                  <point x="0.0" y="-48.5" />
+                  <point x="762.0" y="359.0" />
+                  <point x="529.0" y="359.0" />
+                  <point x="87.0" y="48.5" />
                 </edge>
                 <edge source="com.company.BirthApplication" target="com.company.Application">
-                  <point x="0.0" y="-26.0" />
-                  <point x="889.0" y="336.0" />
-                  <point x="1016.0" y="336.0" />
-                  <point x="-61.0" y="71.0" />
+                  <point x="0.0" y="-37.5" />
+                  <point x="1023.5" y="359.0" />
+                  <point x="1168.5" y="359.0" />
+                  <point x="-61.0" y="82.5" />
                 </edge>
                 <edge source="com.company.Register2" target="com.company.Worker">
-                  <point x="0.0" y="-26.0" />
-                  <point x="150.0" y="336.0" />
-                  <point x="327.83333333333337" y="336.0" />
-                  <point x="-72.66666666666663" y="37.0" />
-                </edge>
-                <edge source="com.company.Worker" target="com.company.RegistryOffice">
-                  <point x="0.0" y="-37.0" />
-                  <point x="400.5" y="144.0" />
-                  <point x="646.25" y="144.0" />
-                  <point x="-92.5" y="59.5" />
+                  <point x="0.0" y="-37.5" />
+                  <point x="0.0" y="48.5" />
                 </edge>
                 <edge source="com.company.DeathApplication" target="com.company.Application">
-                  <point x="0.0" y="-26.0" />
-                  <point x="0.0" y="71.0" />
+                  <point x="0.0" y="-37.5" />
+                  <point x="0.0" y="82.5" />
+                </edge>
+                <edge source="com.company.Worker" target="com.company.RegistryOffice">
+                  <point x="0.0" y="-48.5" />
+                  <point x="442.0" y="144.0" />
+                  <point x="743.25" y="144.0" />
+                  <point x="-92.5" y="59.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.727388284583919" x="308.4195486416049" y="235.6421144083933" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="104.0" />
+              <SelectedNodes>
+                <node>com.company.Test</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
+                <Category>Constructors</Category>
                 <Category>Methods</Category>
                 <Category>Properties</Category>
                 <Category>Inner Classes</Category>
@@ -265,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542619879843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543396168407" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -319,17 +329,19 @@
       <workItem from="1541546039634" duration="2022000" />
       <workItem from="1541953039849" duration="1945000" />
       <workItem from="1542607017240" duration="983000" />
+      <workItem from="1543216465600" duration="639000" />
+      <workItem from="1543351343921" duration="942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5997000" />
+    <option name="totallyTimeSpent" value="7578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.486747" visible="true" weight="0.26575932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.486747" visible="true" weight="0.22677262" />
       <window_info id="Structure" order="1" sideWeight="0.51325303" side_tool="true" weight="0.256447" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19397591" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43571427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,69 +457,72 @@
           <ID>JAVA</ID>
           <OriginalElement>com.company</OriginalElement>
           <nodes>
-            <node x="0.0" y="480.0">com.company.Test</node>
-            <node x="553.75" y="0.0">com.company.RegistryOffice</node>
-            <node x="985.5" y="169.0">com.company.Application</node>
-            <node x="501.0" y="361.0">com.company.Administrator</node>
-            <node x="993.0" y="372.0">com.company.DeathApplication</node>
-            <node x="1181.0" y="372.0">com.company.MarriageApplication</node>
-            <node x="332.0" y="480.0">com.company.Main</node>
-            <node x="320.0" y="372.0">com.company.Register1</node>
-            <node x="0.0" y="372.0">com.company.Register2</node>
-            <node x="291.5" y="203.0">com.company.Worker</node>
-            <node x="805.0" y="372.0">com.company.BirthApplication</node>
+            <node x="0.0" y="526.0">com.company.Test</node>
+            <node x="650.75" y="0.0">com.company.RegistryOffice</node>
+            <node x="1138.0" y="169.0">com.company.Application</node>
+            <node x="612.0" y="384.0">com.company.Administrator</node>
+            <node x="1135.0" y="395.0">com.company.DeathApplication</node>
+            <node x="1344.0" y="395.0">com.company.MarriageApplication</node>
+            <node x="332.0" y="526.0">com.company.Main</node>
+            <node x="0.0" y="395.0">com.company.Register1</node>
+            <node x="292.0" y="395.0">com.company.Register2</node>
+            <node x="311.5" y="203.0">com.company.Worker</node>
+            <node x="932.0" y="395.0">com.company.BirthApplication</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="com.company.Register1" target="com.company.Worker">
-              <point x="0.0" y="-26.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
             <edge source="com.company.MarriageApplication" target="com.company.Application">
-              <point x="0.0" y="-26.0" />
-              <point x="1267.0" y="336.0" />
-              <point x="1138.0" y="336.0" />
-              <point x="61.0" y="71.0" />
+              <point x="0.0" y="-37.5" />
+              <point x="1447.0" y="359.0" />
+              <point x="1290.5" y="359.0" />
+              <point x="61.0" y="82.5" />
+            </edge>
+            <edge source="com.company.Register1" target="com.company.Worker">
+              <point x="0.0" y="-37.5" />
+              <point x="136.0" y="359.0" />
+              <point x="355.0" y="359.0" />
+              <point x="-87.0" y="48.5" />
             </edge>
             <edge source="com.company.Application" target="com.company.RegistryOffice">
-              <point x="0.0" y="-71.0" />
-              <point x="1077.0" y="144.0" />
-              <point x="831.25" y="144.0" />
+              <point x="0.0" y="-82.5" />
+              <point x="1229.5" y="144.0" />
+              <point x="928.25" y="144.0" />
               <point x="92.5" y="59.5" />
             </edge>
             <edge source="com.company.Administrator" target="com.company.Worker">
-              <point x="0.0" y="-37.0" />
-              <point x="643.0" y="336.0" />
-              <point x="473.16666666666674" y="336.0" />
-              <point x="72.66666666666674" y="37.0" />
+              <point x="0.0" y="-48.5" />
+              <point x="762.0" y="359.0" />
+              <point x="529.0" y="359.0" />
+              <point x="87.0" y="48.5" />
             </edge>
             <edge source="com.company.BirthApplication" target="com.company.Application">
-              <point x="0.0" y="-26.0" />
-              <point x="889.0" y="336.0" />
-              <point x="1016.0" y="336.0" />
-              <point x="-61.0" y="71.0" />
+              <point x="0.0" y="-37.5" />
+              <point x="1023.5" y="359.0" />
+              <point x="1168.5" y="359.0" />
+              <point x="-61.0" y="82.5" />
             </edge>
             <edge source="com.company.Register2" target="com.company.Worker">
-              <point x="0.0" y="-26.0" />
-              <point x="150.0" y="336.0" />
-              <point x="327.83333333333337" y="336.0" />
-              <point x="-72.66666666666663" y="37.0" />
-            </edge>
-            <edge source="com.company.Worker" target="com.company.RegistryOffice">
-              <point x="0.0" y="-37.0" />
-              <point x="400.5" y="144.0" />
-              <point x="646.25" y="144.0" />
-              <point x="-92.5" y="59.5" />
+              <point x="0.0" y="-37.5" />
+              <point x="0.0" y="48.5" />
             </edge>
             <edge source="com.company.DeathApplication" target="com.company.Application">
-              <point x="0.0" y="-26.0" />
-              <point x="0.0" y="71.0" />
+              <point x="0.0" y="-37.5" />
+              <point x="0.0" y="82.5" />
+            </edge>
+            <edge source="com.company.Worker" target="com.company.RegistryOffice">
+              <point x="0.0" y="-48.5" />
+              <point x="442.0" y="144.0" />
+              <point x="743.25" y="144.0" />
+              <point x="-92.5" y="59.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.727388284583919" x="308.4195486416049" y="235.6421144083933" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="104.0" />
+          <SelectedNodes>
+            <node>com.company.Test</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
             <Category>Methods</Category>
             <Category>Properties</Category>
             <Category>Inner Classes</Category>
@@ -519,15 +534,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="255">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
